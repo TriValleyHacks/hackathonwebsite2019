@@ -54,91 +54,57 @@
   <div id = "FAQ">
     <h2>FAQ</h2>
     
-      <button class="questions">
-        <h1>How do you register?</h1>
-      </button>
-      <div class="answers">
+      <details class="questions">
+        <summary>How do you register?</summary>
            <p> You can sign up using this link: trivalleycryptohacks.com. We are asking 
            for a ten dollar fee to cover food costs. Additionally, please fill out the MANDATORY liability form.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>What do you bring?</h1>
-      </button>
-      <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>What do you bring?</summary>
            <p> You need to bring your laptop, as we are not providing laptops. We suggest 
            you bring your chargers (for your phone and laptop), liability waiver, sleeping bag/pillow, 
            any medication, and reusable water bottles.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>Is there a fee and what for?</h1>
-      </button>
-       <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>Is there a fee and what for?</summary>
            <p> We are charging 10 dollars for shirt and 3 meals plus many snacks throughout the event.
           </p> 
-      </div>
-       <button class="questions">
-        <h1>Who can come?</h1>
-      </button>
-      <div class="answers">
+      </details>
+       <details class="questions">
+        <summary>Who can come?</summary>
            <p> This hackathon is open to all high schoolers all over Bay Area, especially from the Tri-Valley Area.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>Will we have food, and if so what are the plans?</h1>
-      </button>
-      <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>Will we have food, and if so what are the plans?</summary>
            <p> We are planning a lunch after arrival, an afternoon snack, dinner, 
            a midnight snack and a breakfast. We will also have extra snacks throughout the event.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>Will there be any other activities, workshops, or games?</h1>
-      </button>
-       <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>Will there be any other activities, workshops, or games?</summary>
            <p> There will be an intro to HTML/CSS workshop designed for beginner audiences. In the workshop, you will 
            get a brief overview of web design and will design your first basic website.We are planning to have a tournament that is a surprise! 
            We will let you know at the time of the game what we are playing for a competition. Yes, you will get a prize if you win.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>Is there a layout of the schedule?</h1>
-      </button>
-      <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>Is there a layout of the schedule?</summary>
            <p> Yes! If you look on this website under the schedule, you can see a layout of the full 24 hours of the hackathon.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>What is the location and time?</h1>
-      </button>
-      <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>What is the location and time?</summary>
            <p> It's at Oracle in Pleasanton (5815 Owens Dr, Pleasanton, CA 94588) from April 20th to April 21st, 12pm to 12pm.
           </p> 
-      </div>
-      <button class="questions">
-        <h1>Why should you come?</h1>
-      </button>
-       <div class="answers">
+      </details>
+      <details class="questions">
+        <summary>Why should you come?</summary>
            <p> Free food, free stuff, cool workshops, games, and prizes
-          </p> 
-      </div>
-      <script>
-          var acc = document.getElementsByClassName("questions");
-          var i;
-
-          for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-           var answers = this.nextElementSibling;
-            if (answers.style.maxHeight){
-             answers.style.maxHeight = null;
-            } else {
-            answers.style.maxHeight = answers.scrollHeight + "px";
-             } 
-            });
-          }
-</script>
+            </p>
+      </details>
   </div>
   
   <div id = "Sponsor">

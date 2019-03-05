@@ -1,10 +1,11 @@
-*{
-  background-color:;
+body{
+  background-color:black;
 }
 .menu {
   overflow: hidden;
-  background-color: #1B458B;
-font-family: "Roboto Black", Roboto, serif;
+  background-color: black;
+  background-image: "circuit.png";
+  font-family: "Roboto Black", Roboto, serif;
 }
 
 .menu a {
@@ -28,9 +29,10 @@ font-family: "Roboto Black", Roboto, serif;
 }
 
 .register{
-  background-color:#1B458B;
+  background-color:black;
   color:white;
   float: right;
+  border-color: black;
   
 }
 
@@ -38,21 +40,37 @@ font-family: "Roboto Black", Roboto, serif;
 	width:100%;
 	height: auto;
 }
+.parallax { 
+  /* The image used */
+  background-image: url("circuit.png");
+
+  /* Set a specific height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .title{
-  font-family: "Roboto Black", Roboto, serif;
-  background-color: #1B458B;
-  color:white;
+  color:#00f2bb;
   text-align: center;
+  padding-top:5%;
+  background-color: black;
+ 
 }
 
-h1{
-  font-size: 36px;
-  font-family: "Roboto Black", Roboto, serif;
+#title{
+  padding-top: 25px;
+  font-size: 102px;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  text-transform: uppercase;
 }
-
 h2{
-  font-family: "Roboto Black", Roboto, serif;
+  
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 
 
