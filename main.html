@@ -10,9 +10,10 @@
 <body>
   <div class="menu">
     <a class="active" href="main.html">Home</a>
-    <a href="FAQ.html">FAQ</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="Sponsor.html">Sponsors</a>
+    <a href= "#about">About</a>
+    <a href="#Schedule">Schedule</a>
+    <a href="#FAQ">FAQ</a>
+    <a href="#Sponsor">Sponsors</a>
     <button type="button" class="register">
       <a href="https://www.eventbrite.com/e/tri-valley-crypto-hacks-registration-52964329736" target="_blank">REGISTER </a>
     </button>
@@ -24,6 +25,124 @@
         </div>
         <img id ="header" src='header.png'>
   </header>
+  <div id = "about">
+    <h2 > About </h2>
+     <p> Mission: Our goal is to introduce coding to groups<br> who generally aren't exposed to coding as much or <br>who don't have easy access to hackathons. <br>Specifically, we are targeting minorities and <br>residents of the Tri-Valley area.</p>
+  </div>
     
+  <div id = "Schedule">
+    <h2>Schedule</h2>
+    <h3>Saturday, April 20th</h3>
+    <p id = "time">11:00 A.M.   <strong>Check-in Time</strong></p>
+    <p id = "time">12:00 P.M.   <strong>Opening Ceremony</strong></p>
+    <p id = "time">1:15 P.M.   <strong>Lunch</strong></p>
+    <p id = "time">2:00 P.M.   <strong>HTML/CSS Workshop</strong></p>
+    <p id = "time">4:00 P.M.   <strong>App Development Workshop</strong></p>
+    <p id = "time">5:00 P.M.   <strong>Snack</strong></p>
+    <p id = "time">6:00 P.M.   <strong>ISACA Cybersecurity Workshop</strong></p>
+    <p id = "time">7:30 P.M.   <strong>Dinner</strong></p>
+    <p id = "time">8:30 P.M.   <strong>Work Time</strong></p>
+    <h3>Sunday, April 21st</h3>
+    <p id = "time">12:00 A.M.   <strong>Midnight Snack</strong></p>
+    <p id = "time">7:00 A.M.   <strong>Breakfast</strong></p>
+    <p id = "time">7:30 A.M.   <strong>Presentation Sign Ups</strong></p>
+    <p id = "time">8:15 A.M.   <strong>Presentations</strong></p>
+    <p id = "time">11:00 A.M.   <strong>Judging</strong></p>
+    <p id = "time">11:30 A.M.   <strong>Closing Ceremony</strong></p>
+  </div>
+  
+  <div id = "FAQ">
+    <h2>FAQ</h2>
+    
+      <button class="questions">
+        <h1>How do you register?</h1>
+      </button>
+      <div class="answers">
+           <p> You can sign up using this link: trivalleycryptohacks.com. We are asking 
+           for a ten dollar fee to cover food costs. Additionally, please fill out the MANDATORY liability form.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>What do you bring?</h1>
+      </button>
+      <div class="answers">
+           <p> You need to bring your laptop, as we are not providing laptops. We suggest 
+           you bring your chargers (for your phone and laptop), liability waiver, sleeping bag/pillow, 
+           any medication, and reusable water bottles.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>Is there a fee and what for?</h1>
+      </button>
+       <div class="answers">
+           <p> We are charging 10 dollars for shirt and 3 meals plus many snacks throughout the event.
+          </p> 
+      </div>
+       <button class="questions">
+        <h1>Who can come?</h1>
+      </button>
+      <div class="answers">
+           <p> This hackathon is open to all high schoolers all over Bay Area, especially from the Tri-Valley Area.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>Will we have food, and if so what are the plans?</h1>
+      </button>
+      <div class="answers">
+           <p> We are planning a lunch after arrival, an afternoon snack, dinner, 
+           a midnight snack and a breakfast. We will also have extra snacks throughout the event.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>Will there be any other activities, workshops, or games?</h1>
+      </button>
+       <div class="answers">
+           <p> There will be an intro to HTML/CSS workshop designed for beginner audiences. In the workshop, you will 
+           get a brief overview of web design and will design your first basic website.We are planning to have a tournament that is a surprise! 
+           We will let you know at the time of the game what we are playing for a competition. Yes, you will get a prize if you win.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>Is there a layout of the schedule?</h1>
+      </button>
+      <div class="answers">
+           <p> Yes! If you look on this website under the schedule, you can see a layout of the full 24 hours of the hackathon.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>What is the location and time?</h1>
+      </button>
+      <div class="answers">
+           <p> It's at Oracle in Pleasanton (5815 Owens Dr, Pleasanton, CA 94588) from April 20th to April 21st, 12pm to 12pm.
+          </p> 
+      </div>
+      <button class="questions">
+        <h1>Why should you come?</h1>
+      </button>
+       <div class="answers">
+           <p> Free food, free stuff, cool workshops, games, and prizes
+          </p> 
+      </div>
+      <script>
+          var acc = document.getElementsByClassName("questions");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+           var answers = this.nextElementSibling;
+            if (answers.style.maxHeight){
+             answers.style.maxHeight = null;
+            } else {
+            answers.style.maxHeight = answers.scrollHeight + "px";
+             } 
+            });
+          }
+</script>
+  </div>
+  
+  <div id = "Sponsor">
+    <h2>Sponsors</h2>
+  </div>
 </body>
 </html>

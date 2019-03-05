@@ -33,9 +33,41 @@
 .title{
   font-family: "Roboto Black", Roboto, serif;
   background-color: #1B458B;
+  color:white;
 }
 
 h1{
   font-size: 16px;
   font-family: "Roboto Black", Roboto, serif;
+}
+
+h2{
+  font-family: "Roboto Black", Roboto, serif;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.questions {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .questions:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.answers {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
