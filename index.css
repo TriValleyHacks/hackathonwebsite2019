@@ -102,9 +102,8 @@ p{
   margin-left:5%;
 }
 #Schedule{
-   font-family: 'Oswald Bold', Oswald, sans-serif; 
-   float:center;
-  margin-left: 20%;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float:left;
   margin-bottom: 20%;
   margin-top: 5%;
   width:100%;
