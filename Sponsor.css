@@ -50,6 +50,10 @@ body{
     width: inherit;
     height: auto;
 }
+#logo{
+    width: inherit;
+    height: auto;
+}
 .col-md-2 {
     height: 50%;
 }

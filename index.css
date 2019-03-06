@@ -49,7 +49,7 @@ body{
 }
 
 #header{
-	width:100%;
+	width: 100%;
 	height: auto;
 }
 .parallax { 
@@ -115,6 +115,7 @@ p{
 #Schedule{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   float:left;
+  
   padding-left: 10%;
   margin-bottom: 20%;
   margin-top: 5%;
