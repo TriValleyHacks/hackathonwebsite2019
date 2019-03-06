@@ -168,3 +168,9 @@ p{
   display: table;
   clear: both;
 }
+#NGN {
+  height: 80%;
+}
+#ISACA {
+  height: 60%;
+}
