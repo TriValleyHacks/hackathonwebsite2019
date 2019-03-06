@@ -51,7 +51,7 @@ body{
     height: auto;
 }
 #logo{
-    width: inherit;
+    width: 50%;
     height: auto;
 }
 .col-md-2 {
