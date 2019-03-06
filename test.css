@@ -1,11 +1,12 @@
 body{
-  background-color:black;
+  background-color: black;
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 .menu {
   overflow: hidden;
   background-color: black;
-  background-image: "circuit.png";
-  font-family: "Roboto Black", Roboto, serif;
+  background-image: "circuit.png"; 
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 
 .menu a {
@@ -68,15 +69,58 @@ body{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   text-transform: uppercase;
 }
+h1{
+  font-size: 50px;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  text-align: center;
+  margin-top:50px;
+}
 h2{
   
   font-family: 'Oswald Bold', Oswald, sans-serif; 
+  font-size: 40px;
 }
 
+p{
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   font-size: 25px;
+}
 
+#about{
+  
+  float:left;
+  padding-left: 10%;
+  padding-top:5%;
+  background-color: white;
+  color:black;
+}
+
+#people{
+  width: 40%;
+  height:40%;
+  margin-top:5%;
+  margin-left:5%;
+}
+#Schedule{
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   float:center;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  width:100%;
+}
+
+#FAQ{
+  width:100%;
+  float: center;
+  margin-top:5%;
+  background-color: #00f2bb ;
+  text-align: center;
+  float:center;
+}
 /* Style the buttons that are used to open and close the accordion panel */
 .questions {
-  background-color: #eee;
+  background-color: #00f2bb;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -85,12 +129,17 @@ h2{
   border: none;
   outline: none;
   transition: 0.4s;
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   font-size: 20px;
+   float: center;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .questions:hover {
-  background-color: #ccc;
+  background-color: #92278f;
+  color: white;
 }
+
 
 /* Style the accordion panel. Note: hidden by default */
 .answers {
@@ -98,4 +147,24 @@ h2{
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: left;
+  width: 40%;
+}
+.column {
+  float: left;
+  width: 40%;
+}
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
