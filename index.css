@@ -3,6 +3,11 @@
   font-size: 20px;
   background-color:#00f2bb;
 }
+
+.h3{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  
+}
 body{
   background-color: black;
    font-family: 'Oswald Bold', Oswald, sans-serif; 

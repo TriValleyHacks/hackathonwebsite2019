@@ -41,11 +41,15 @@ body{
   float: right;
   border-color: black;
   
-
+}
 #ISACA{
-	width:100%;
+	width: inherit;
 	height: auto;
 }
 #NGN{
-    height: 120%;
+    width: inherit;
+    height: auto;
+}
+.col-md-2 {
+    height: 50%;
 }
