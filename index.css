@@ -87,7 +87,8 @@ body{
 
 #title{
   padding-top: 25px;
-  font-size: 102px;
+  /*font-size: 102px;*/
+  font-size: 10vh;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   text-transform: uppercase;
 }
