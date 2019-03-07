@@ -6,6 +6,9 @@ body{
 .menu {
   overflow: hidden;
   background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-image: "circuit.png"; 
   font-family: 'Oswald Bold', Oswald, sans-serif; 
 }

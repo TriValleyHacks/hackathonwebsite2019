@@ -1,11 +1,17 @@
 .timer{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
-  font-size: 20px;
+  font-size: 17px;
   background-color:#00f2bb;
+  
 }
 
 #countdown{
-  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  font-family: 'Oswald Bold', Oswald, sans-serif;
+  color: white;  
+  font-size: 17px;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-top: 15%;
   
 }
 body{
@@ -16,6 +22,9 @@ body{
 .menu {
   overflow: hidden;
   background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-image: "circuit.png"; 
   font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
@@ -45,6 +54,7 @@ body{
   color:white;
   float: right;
   border-color: black;
+  padding-top: 0px;
   
 }
 
@@ -114,9 +124,9 @@ p{
 }
 #Schedule{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
-  float:left;
+  float:right;
   
-  padding-left: 10%;
+  padding-left: 0%;
   margin-bottom: 20%;
   margin-top: 5%;
   width:100%;
@@ -129,7 +139,6 @@ p{
   padding-top: 2%;
   background-color: #00f2bb ;
   text-align: center;
-  float:center;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .questions {
@@ -163,15 +172,15 @@ p{
 }
 
 .column1 {
-  float: left;
+  text-align:center;  
   width: 50%;
 }
 .column2 {
-  float: left;
+  text-align:center;
   width: 40%;
 }
 .column {
-  float: left;
+  text-align: center;
   width: 40%;
 }
 /* Clear floats after the columns */

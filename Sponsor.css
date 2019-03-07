@@ -1,8 +1,3 @@
-.timer{
-  font-family: 'Oswald Bold', Oswald, sans-serif; 
-  font-size: 20px;
-  background-color:;
-}
 body{
   background-color: black;
    font-family: 'Oswald Bold', Oswald, sans-serif; 
@@ -10,6 +5,9 @@ body{
 }
 .menu {
   overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
   background-color: black;
   background-image: "circuit.png"; 
   font-family: 'Oswald Bold', Oswald, sans-serif; 
@@ -42,6 +40,16 @@ body{
   border-color: black;
   
 }
+
+.title{
+  color:#00f2bb;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  padding-top:5%;
+  background-color: black;
+ 
+}
 #ISACA{
 	width: inherit;
 	height: auto;
@@ -55,5 +63,5 @@ body{
     height: auto;
 }
 .col-md-2 {
-    height: 50%;
+    height: 25%;
 }
