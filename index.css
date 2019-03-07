@@ -27,6 +27,7 @@ body{
   top: 0;
   background-image: "circuit.png"; 
   font-family: 'Oswald Bold', Oswald, sans-serif; 
+  z-index: 300;
 }
 
 .menu a {
