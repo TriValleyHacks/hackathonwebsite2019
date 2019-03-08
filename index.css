@@ -94,6 +94,9 @@ h2{
   font-size: 40px;
 }
 
+h3{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+}
 p{
    font-family: 'Oswald Bold', Oswald, sans-serif; 
    font-size: 25px;
@@ -114,22 +117,35 @@ p{
   margin-top:5%;
   margin-left:5%;
 }
-#Schedule{
+.Schedule{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   float:right;
-  
   padding-left: 0%;
   margin-bottom: 20%;
   margin-top: 5%;
   width:100%;
 }
 
+#sche{
+  padding-bottom: 2%
+}
 #FAQ{
   width:100%;
   float: left;
   margin-top:5%;
-  padding-top: 2%;
-  padding-left: 40%;
+  padding-top: 4%;
+  padding-left: 47%;
+  padding-bottom: 2%;
+  
+  background-color: #00f2bb ;
+  text-align: left;
+}
+
+.FAQ{
+  width:100%;
+  float: left;
+  margin-top:-.75%;
+padding-left: 32%;
   background-color: #00f2bb ;
   text-align: left;
 }
