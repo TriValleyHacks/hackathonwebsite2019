@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+    color:#92278f;
+     padding-top:5%;
+     padding-bottom:5%;
+    font-family: 'Oswald Bold', Oswald, sans-serif; 
+}
+.menu {
+overflow: hidden;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  background-image: "circuit.png"; 
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  z-index: 300;
+}
+
+.menu a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.register{
+  background-color:black;
+  color:white;
+  float: right;
+  border-color: black;
+  
+}

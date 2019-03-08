@@ -17,7 +17,7 @@
 body{
   background-color: black;
    font-family: 'Oswald Bold', Oswald, sans-serif; 
-   width: 95%;
+   width: 100%;
 }
 .menu {
   overflow: hidden;
@@ -63,30 +63,19 @@ body{
 	width: 100%;
 	height: auto;
 }
-.parallax { 
-  /* The image used */
-  background-image: url("circuit.png");
 
-  /* Set a specific height */
-  height: 600px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .title{
   color:#00f2bb;
   text-align: center;
-  padding-top:10%;
+
   background-color: black;
+  background-image: url("circuit.png");
  
 }
 
 #title{
-  padding-top: 25%;
+  
   font-size: 102px;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   text-transform: uppercase;
@@ -135,7 +124,7 @@ p{
 
 #FAQ{
   width:100%;
-  float: center;
+  float: left;
   margin-top:5%;
   padding-top: 2%;
   background-color: #00f2bb ;
@@ -146,15 +135,199 @@ p{
   background-color: #00f2bb;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 18px 18px 18px 50px;
   width: 100%;
-  text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
-  font-size: 20px;
-   float: center;
+  
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .questions:hover {
+  background-color: #92278f;
+  color: white;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.answers {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.column1 {
+  text-align:center;  
+  width: 50%;
+}
+.column2 {
+  text-align:center;
+  width: 40%;
+}
+.column {
+  text-align: center;
+  width: 40%;
+}
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#NGN {
+  height: 80%;
+}
+#ISACA {
+  height: 60%;
+}.timer{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  font-size: 17px;
+  background-color:#00f2bb;
+  
+}
+
+#countdown{
+  font-family: 'Oswald Bold', Oswald, sans-serif;
+  color: white;  
+  font-size: 17px;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-top: 15%;
+  
+}
+body{
+  background-color: black;
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   width: 100%;
+}
+.menu {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-image: "circuit.png"; 
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  z-index: 300;
+}
+
+.menu a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.register{
+  background-color:black;
+  color:white;
+  float: right;
+  border-color: black;
+  padding-top: 0px;
+  
+}
+
+#header{
+	width: 100%;
+	height: auto;
+}
+
+
+.title{
+  color:#00f2bb;
+  text-align: center;
+
+  background-color: black;
+  background-image: url("circuit.png");
+ 
+}
+
+#title{
+  
+  font-size: 102px;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  text-transform: uppercase;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  text-align: center;
+  margin-top:50px;
+}
+h2{
+  
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  font-size: 40px;
+}
+
+p{
+   font-family: 'Oswald Bold', Oswald, sans-serif; 
+   font-size: 25px;
+}
+
+#about{
+  
+  float:left;
+  padding-left: 10%;
+  padding-top:5%;
+  background-color: white;
+  color:black;
+}
+
+#people{
+  width: 40%;
+  height:40%;
+  margin-top:5%;
+  margin-left:5%;
+}
+#Schedule{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float:right;
+  
+  padding-left: 0%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  width:100%;
+}
+
+#FAQ{
+  width:100%;
+  float: left;
+  margin-top:5%;
+  padding-top: 2%;
+  padding-left: 20%;
+  background-color: #00f2bb ;
+  text-align: left;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.questions {
+  background-color: #00f2bb;
+  color: #444;
+  cursor: pointer;
+  padding: 18px 18px 18px 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
