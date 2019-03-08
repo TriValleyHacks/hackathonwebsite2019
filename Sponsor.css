@@ -3,6 +3,11 @@ body{
    font-family: 'Oswald Bold', Oswald, sans-serif; 
    width: 100%;
 }
+
+h1{
+  background-color:#00f2bb;
+  padding-bottom: 5%;
+}
 .menu {
   overflow: hidden;
   width: 100%;
@@ -12,6 +17,7 @@ body{
   background-image: "circuit.png"; 
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   z-index: 300;
+  
 }
 
 .menu a {
@@ -34,6 +40,11 @@ body{
   color: white;
 }
 
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
 .register{
   background-color:black;
   color:white;
@@ -54,15 +65,54 @@ body{
 #ISACA{
 	width: inherit;
 	height: auto;
+	padding-top: 5%;
+	float: center;
+}
+#title{
+    font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float: center;
+  padding-top: 7%;
+  
+}
+
+p{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+}
+
+h2{
+  font-family: 'Oswald Bold', Oswald, sans-serif; 
+  float: center;
+  text-align: center; 
+  margin-top:7%;
+  padding-top: 5%;
+    background-color:#00f2bb;
+  padding-bottom: 5%;
 }
 #NGN{
-    width: inherit;
+    width: 50%;
     height: auto;
+    padding-top: 15%;
+     padding-bottom: 5%;
+    float:  center;
+      margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+.description{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 #logo{
     width: 50%;
     height: auto;
 }
-.col-md-2 {
-    height: 25%;
+
+
+.col-md-6 {
+    height: 50%;
+}
+
+.spo{
+  padding-top: 5%;
 }

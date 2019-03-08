@@ -17,7 +17,7 @@
 body{
   background-color: black;
    font-family: 'Oswald Bold', Oswald, sans-serif; 
-   width: 100%;
+   width: 95%;
 }
 .menu {
   overflow: hidden;
@@ -68,7 +68,7 @@ body{
   background-image: url("circuit.png");
 
   /* Set a specific height */
-  height: 500px; 
+  height: 600px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -80,15 +80,14 @@ body{
 .title{
   color:#00f2bb;
   text-align: center;
-  padding-top:5%;
+  padding-top:10%;
   background-color: black;
  
 }
 
 #title{
-  padding-top: 25px;
-  /*font-size: 102px;*/
-  font-size: 10vh;
+  padding-top: 25%;
+  font-size: 102px;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   text-transform: uppercase;
 }
