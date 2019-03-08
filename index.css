@@ -129,8 +129,9 @@ p{
   float: left;
   margin-top:5%;
   padding-top: 2%;
+  padding-left: 40%;
   background-color: #00f2bb ;
-  text-align: center;
+  text-align: left;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .questions {
