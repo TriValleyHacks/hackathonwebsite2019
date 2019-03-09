@@ -117,24 +117,23 @@ p{
   margin-top:5%;
   margin-left:5%;
 }
-.Schedule{
+#Schedule{
   font-family: 'Oswald Bold', Oswald, sans-serif; 
   float:right;
+  padding-top: 5%;
   padding-left: 0%;
   margin-bottom: 20%;
   margin-top: 5%;
   width:100%;
 }
 
-#sche{
-  padding-bottom: 2%
-}
+
 #FAQ{
   width:100%;
   float: left;
   margin-top:5%;
   padding-top: 4%;
-  padding-left: 47%;
+  
   padding-bottom: 2%;
   
   background-color: #00f2bb ;
@@ -145,7 +144,7 @@ p{
   width:100%;
   float: left;
   margin-top:-.75%;
-padding-left: 32%;
+  
   background-color: #00f2bb ;
   text-align: left;
 }
