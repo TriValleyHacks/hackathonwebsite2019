@@ -63,17 +63,16 @@ h1{
  
 }
 #ISACA{
-	width: 50%;
+	width: inherit;
 	height: auto;
-	padding-top: 5%;
+	padding-top: 15%;
 	float: center;
-
+	padding-bottom:25%;
 }
 #title{
     font-family: 'Oswald Bold', Oswald, sans-serif; 
   float: center;
-  padding-top: 10%;
-  
+  padding-top: 7%;
   
 }
 
@@ -91,9 +90,9 @@ h2{
   padding-bottom: 5%;
 }
 #NGN{
-    width: 50%;
+    width: 25%;
     height: auto;
-    padding-top: 15%;
+    padding-top: 25%;
      padding-bottom: 5%;
     float:  center;
       margin-left:auto;

@@ -133,9 +133,7 @@ p{
   float: left;
   margin-top:5%;
   padding-top: 4%;
-  
   padding-bottom: 2%;
-  
   background-color: #00f2bb ;
   text-align: left;
 }
@@ -154,6 +152,7 @@ p{
   color: #444;
   cursor: pointer;
   padding: 18px 18px 18px 50px;
+  padding-left: 10%;
   width: 100%;
   border: none;
   outline: none;
@@ -175,6 +174,7 @@ p{
   background-color: white;
   display: none;
   overflow: hidden;
+  padding-left: 10%;
 }
 
 .column1 {
