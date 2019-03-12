@@ -54,4 +54,8 @@ body{
 iframe{
   padding-top: 5%;
 }
+#logo{
+    width: 50%;
+    height: auto;
+}
 

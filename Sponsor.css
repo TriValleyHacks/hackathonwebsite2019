@@ -63,7 +63,7 @@ h1{
  
 }
 #ISACA{
-	width: inherit;
+	width: auto;
 	height: auto;
 	padding-top: 15%;
 	float: center;
@@ -116,4 +116,7 @@ h2{
 
 .spo{
   padding-top: 5%;
+}
+.botto{
+  background-color:#00f2bb;
 }

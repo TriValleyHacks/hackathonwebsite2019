@@ -46,3 +46,7 @@ overflow: hidden;
 .row{
   padding: 2%;
 }
+#logo{
+    width: 50%;
+    height: auto;
+}
