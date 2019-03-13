@@ -62,13 +62,14 @@ h1{
   background-color: black;
  
 }
+/*
 #ISACA{
-	width: auto;
-	height: auto;
+	width: inherit;
+	height: 40%;
 	padding-top: 15%;
 	float: center;
 	padding-bottom:25%;
-}
+}*/
 #title{
     font-family: 'Oswald Bold', Oswald, sans-serif; 
   float: center;
