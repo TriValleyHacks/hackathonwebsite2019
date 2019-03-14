@@ -8,6 +8,9 @@ h1{
   background-color:#00f2bb;
   padding-bottom: 5%;
 }
+.row{
+  padding-top: 5%;
+}
 .menu {
   overflow: hidden;
   width: 100%;
@@ -117,6 +120,9 @@ h2{
 }
 
 .spo{
+  padding-top: 5%;
+}
+.part{
   padding-top: 5%;
 }
 .botto{
