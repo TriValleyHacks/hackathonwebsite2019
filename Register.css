@@ -50,3 +50,11 @@ overflow: hidden;
     width: 50%;
     height: auto;
 }
+
+.register{
+  background-color:black;
+  color:white;
+  float: center;
+  border-color: black;
+  padding-top: 0px;
+}
